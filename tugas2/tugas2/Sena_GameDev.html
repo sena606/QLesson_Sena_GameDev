@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir dan Gambar</title>
+  </head>
+  <body>
+    <h1>Qlesson</h1>
+    <h2>Succes Future Together</h2>
+    <p>lorem ipsum dolor sit amet consectetuer adipiscing elit</p>
+    <img src="img/lisa.jpg" alt="Gambar 1" width="400" height="400" />
+    <h1>Biodata</h1>
+    <ul>
+      <li>Nama : Genta Sena Irasta</li>
+      <li>NPM : 223040168</li>
+      <li>Bidang Jurusan : GameDev</li>
+    </ul>
+    <img src="img/lisa2.png" alt="Gambar 2" width="400" height="400" />
+    <h1>Hobi</h1>
+    <ol>
+      <li>Playing Game</li>
+      <li>Create Animation</li>
+      <li>Create Game (maybe)</li>
+    </ol>
+    <img src="img/yukina.png" alt="Gambar 3" width="400" height="400" />
+
+    <h2>Isi Form</h2>
+    <fieldset>
+        <legend>Kelamin</legend>
+        <form action="proses.php" method="post">
+      <label for="jenis-kelamin">Jenis Kelamin:</label><br />
+      <input type="radio" name="jenis-kelamin" value="p" id="p" />
+      <label for="pria">Laki-Laki</label>
+      <input type="radio" name="jenis-kelamin" value="w" id="w" />
+      <label for="wanita">Perempuan</label><br />
+    </fieldset>
+    
+
+      <fieldset>
+        <legend>Menjurus ke ?</legend>
+        <form>
+            <input type="checkbox">
+            <label for="f">Frondend</label>
+
+            <input type="checkbox">
+            <label for="b">Backend</label>
+
+            <input type="checkbox">
+            <label for="fs">FullStack</label>
+      </fieldset>
+
+      <label for="email">Email:</label><br />
+      <input type="email" name="email" id="email" required /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
